@@ -3,10 +3,12 @@ This is a repository that scrapes the past round scores of all users of a Fantas
 
 Original: https://github.com/ChrisMusson/FPL_League_Bar_Chart_Race
 # Usage
- - `python3 -m venv venv`
- - `pip3 install -r requirements.txt`
+ - `python3 -m venv venv` Create a new virtual environment
+ - `source venv/bin/activate` Activate
+ - `pip3 install -r requirements.txt` Install dependencies
  - Edit the `league_id.txt` file so it contains the league ID for which you want to create the bar chart race. This can be found by navigating to your league's page on fantasy.premierleague.com and looking at the URL.
  - `python3 main.py` - This will take roughly 30 seconds, but will eventually create the bar chart race video file called `<league_id>.mp4`
+ - `deactivate` Exit from the virtual environment
 # Example
 ![](https://github.com/ChrisMusson/FPL_League_Bar_Chart_Race/blob/master/51055_example.gif)
 # Notes
